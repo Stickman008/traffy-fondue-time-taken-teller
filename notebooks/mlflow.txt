@@ -2,3 +2,6 @@ mlflow ui
 
 set MLFLOW_TRACKING_URI=http://localhost:5000/
 mlflow models serve --model-uri runs:/b6315c9c5d2f498ab82ad0677882987b/model --port 1244
+
+set MLFLOW_TRACKING_URI=http://localhost:5000/
+mlflow models serve --model-uri runs:/871cb6298e9b478cb98d4be6c07ba225/model --port 1245
